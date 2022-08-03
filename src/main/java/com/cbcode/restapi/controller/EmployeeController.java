@@ -12,7 +12,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1")
+<<<<<<< HEAD
 @CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
+=======
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+>>>>>>> 09ace4d (Upadte and create new classes)
 public class EmployeeController {
 
     @Autowired
